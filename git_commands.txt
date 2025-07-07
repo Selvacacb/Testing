@@ -1,0 +1,10 @@
+# Initialize a new Git repository (if not already initialized)
+git init
+# Add all files to the staging area
+git add .
+# Commit the files
+git commit -m "Add Guess the Number game project"
+# Add the remote repository (replace URL with your actual repo)
+git remote add origin https://github.com/yourusername/your-repo.git
+# Push the commit to the main branch
+git push -u origin main
